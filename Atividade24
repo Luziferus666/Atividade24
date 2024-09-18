@@ -1,0 +1,6 @@
+total, contagem = 0, 0
+
+while (n := int(input("Digite um número (-1 para sair): "))) != -1:
+    total += n; contagem += 1
+
+print(f"A média é: {total / contagem}" if contagem else "Nenhum número foi digitado.")
